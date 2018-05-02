@@ -31,13 +31,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  newarray = []
-  array.each do |element|
-    if element.start_with? ("a")
-      true
-    newarray << element
-  elsif
-    nil
-  end
-    newarray
+  array.select { |word|  word.start_with? ("a")}
 end
+
