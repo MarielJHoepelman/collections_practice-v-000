@@ -31,10 +31,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  start = []
+  newarray = []
   array.each do |element|
     element.start_with? ("a")
-    start << element
+    newarray << element
   end
-    element
-end 
+    newarray
+end
