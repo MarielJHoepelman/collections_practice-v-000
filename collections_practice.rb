@@ -36,6 +36,8 @@ def find_a(array)
     if element.start_with? ("a")
       true
     newarray << element
+  elsif
+    nil
   end
     newarray
 end
